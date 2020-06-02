@@ -184,7 +184,6 @@ figure {
 
 p {
 	margin: 10px;
-	text-align: left;
 	line-height: 22px;
 	text-indent: 2em;
 	color: #fff;
@@ -384,4 +383,9 @@ fieldset a:hover {
 	right: 5px;
 	top: 50%;
 	margin-top: -3em;
+}
+
+#manutencao {
+	text-align: center;
+	font-weight: bolder;
 }

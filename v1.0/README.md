@@ -1,1 +1,0 @@
-# Design Tech TI V2.0

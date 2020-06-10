@@ -90,10 +90,12 @@
 	}
 
 	.transparente {
+		background-color: rgba(0,0,0,0.8);
 		width: 85%;
 		border-radius: 8px;
-		margin: 70px;
+		margin: auto;
 		display: table;
+		padding: 50px;
 	}
 
 /* Containers */

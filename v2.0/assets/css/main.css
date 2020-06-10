@@ -61,6 +61,41 @@
 		box-sizing: border-box;
 	}
 
+	.direita {
+		margin: 30px 10px 0 0;
+		float: right;
+	}
+
+	.pesquisa {
+		background-image: url(../images/icone-pesquisa.png);
+		background-repeat: no-repeat;
+		background-position: left;
+		background-size: 20px 20px;
+		text-align: center;
+		padding: 8px 0 8px 16px;
+		border: none;
+		width: 150px;
+		display:inline;
+	}
+
+	.botao {
+		background-color: #06F;
+		border-radius: 8px 0 0 8px;
+		color: #FFF;
+		padding: 7px;
+		margin: -20px -15px 0 25px;
+		border: none;
+		width: 80px;
+		display:inline;
+	}
+
+	.transparente {
+		width: 85%;
+		border-radius: 8px;
+		margin: 70px;
+		display: table;
+	}
+
 /* Containers */
 
 	.container {
@@ -1880,7 +1915,6 @@
 
 /* Button */
 
-	input[type="submit"],
 	input[type="reset"],
 	input[type="button"],
 	button,

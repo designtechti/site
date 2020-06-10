@@ -32,9 +32,9 @@
 			<nav id="menu">
 				<ul class="links">
 					<li><a href="index.php">Início</a></li>
-					<li><a href="sobre.php">Sobre</a></li>
-					<li><a href="portifolio.php">Portifólio</a></li>
-					<li><a href="blog.php">Blog</a></li>
+					<li><a href="index.php?p=conteudo&a=sobre">Sobre</a></li>
+					<li><a href="index.php?p=conteudo&a=portifolio">Portifólio</a></li>
+					<li><a href="index.php?p=conteudo&a=blog">Blog</a></li>
 				</ul>
 			</nav>
 
@@ -86,20 +86,27 @@
 					</div>
 				</article>
 			</section>
+ 
+			<div class="direita">
+				<form class="pesquisar" action="conteudo/busca.php" method="GET">
+					<input type="submit" value="Buscar" class="botao" />
+					<input type="search" class="pesquisa" placeholder="Digite sua pesquisa">
+				</form>
+				<br><br>
+			</div>
 
-		<!-- 
 			<div class="transparente">
 				<?php
 
 					if (!empty($_GET['p']) && !empty($_GET['a'])) {
 						
-						include ('includes/'.$_GET['p'].'/'.$_GET['a'].'.php');
+						include ('assets/includes/'.$_GET['p'].'/'.$_GET['a'].'.php');
 					}else {
-						include('includes/conteudo/inicio.php');
+						include('assets/includes/conteudo/inicio.php');
 					}
 				?>
 			</div>
-		-->	
+		-->
 
 		<!-- Footer -->
 			<footer id="footer">

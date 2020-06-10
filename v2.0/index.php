@@ -106,7 +106,6 @@
 					}
 				?>
 			</div>
-		-->
 
 		<!-- Footer -->
 			<footer id="footer">
@@ -116,6 +115,8 @@
 						<li><a href="https://facebook.com/designtechti" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
 						<li><a href="https://instagram.com/designtechti" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
 						<li><a href="mailto:mrc_490@hotmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+						<li><a href="https://linkedin.com/in/designtechti" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
+						<li><a href="https://github.com/designtechti" class="icon fa-github"><span class="label">Github</span></a></li>
 					</ul>
 				</div>
 				<div class="copyright">

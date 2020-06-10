@@ -1,18 +1,36 @@
-<p><a style="color: #3CC3FA;" href="index.php">Início</a> > <a style="color: #3CC3FA; font-weight: bold;" href="sobre.php">Sobre</a></p>
-				<h1 id="titulo">Sobre a Design Tech TI</h1>
-				<img src="images/Logo.png" alt="logotipo" title="logotipo" style="border-radius: 50%; border: 5px solid #3CC3FA; width: 20%; margin: auto; display: block;" />
-				<br />
-				<article>
-					<p>Somos uma Startup no ramo de TI especializada em Manutenção de computadores e Desenvolvimento Web, focada na criação de conteúdo na internet (como artigos sobre tecnologia & design gráfico) para fins de espalhar informação sobre os assuntos para aqueles que gostam do assunto e que queiram se aprofundar no assunto.
-					</p>
+		<!-- One -->
+			<section id="One" class="wrapper style3">
+				<div class="inner">
+					<header class="align-center">
+						<p>Conheça nossa empresa</p>
+						<h2>Design Tech TI</h2>
+					</header>
+				</div>
+			</section>
 
-					<p>Meu nome é Marcelo Junior e tenho um objetivo em mente: que meus projetos tornem o mundo um lugar melhor.</p>
+		<!-- Two -->
+			<section id="two" class="wrapper style2">
+				<div class="inner">
+					<div class="box">
+						<div class="content">
+							<header class="align-center">
+								<p>Conheça-nos</p>
+								<h2>Sobre a Design Tech TI</h2>
+							</header>
+							<article>
+								<p>Somos uma Startup no ramo de TI especializada em Manutenção de computadores e Desenvolvimento Web, focada na criação de conteúdo na internet (como artigos sobre tecnologia & design gráfico) para fins de espalhar informação sobre os assuntos para aqueles que gostam do assunto e que queiram se aprofundar no assunto.
+								</p>
 
-					<p>Eu posso transformar seus sentimentos e idéias em um design, representando sua marca de maneira inteligente com projetos criativos e um ótimo relacionamento com os clientes.</p>
+								<p>Meu nome é Marcelo Junior e tenho um objetivo em mente: que meus projetos tornem o mundo um lugar melhor.</p>
 
-					<p>Embora eu tenha começado com impressões, desenvolvi um amor pela construção de layouts e elaboração de histórias para os clientes.</p>
+								<p>Eu posso transformar seus sentimentos e idéias em um design, representando sua marca de maneira inteligente com projetos criativos e um ótimo relacionamento com os clientes.</p>
 
+								<p>Embora eu tenha começado com impressões, desenvolvi um amor pela construção de layouts e elaboração de histórias para os clientes.</p>
+								
+								<div id="sobre">
+									<img src="images/about.jpg">
+									<h2>Marcelo Junior</h2>
+									<p>Meu nome é Marcelo, Sou formado em Técnico em Informática para Internet pelo Senac Informática, além de ter trabalhado com Suporte aos usuários finais desde 2016. Sou apaixonado por tecnologia, coisas geek, jogos e do mundo linux. Também tenho um canal e um blog sobre tecnologia e desenvolvimento web. </p>
+								</div>	
 
-					<img src="images/about.png" style="margin: auto; display: block; padding-top: 50px;">					 	
-
-				</article>
+							</article>

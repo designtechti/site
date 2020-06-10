@@ -18,7 +18,7 @@
 								<h2>Sobre a Design Tech TI</h2>
 							</header>
 							<article>
-								<p>Somos uma Startup fundada em 2016, que vem atuando no ramo de TI especializada em Manutenção de computadores e Desenvolvimento Web, focada na criação de conteúdo na internet (como artigos sobre tecnologia & design gráfico) para fins de espalhar informação sobre os assuntos para aqueles que gostam do assunto e que queiram se aprofundar no assunto.
+								<p>Somos uma Startup fundada em 2016, que vem atuando no ramo de TI,  especializada em Manutenção de computadores e Desenvolvimento Web, focada na criação de conteúdo na internet (como artigos sobre tecnologia & design gráfico) para fins de espalhar informação sobre os assuntos para aqueles que gostam do assunto e que queiram se aprofundar no assunto.
 								</p>
 
 								<p>Meu nome é Marcelo Junior e tenho um objetivo em mente: que meus projetos tornem o mundo um lugar melhor.</p>

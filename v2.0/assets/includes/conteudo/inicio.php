@@ -1,4 +1,3 @@
-
 		<!-- One -->
 		
 			<section id="one" class="wrapper style2">
@@ -81,7 +80,7 @@
 						<p class="special">Alguns de nossos projetos</p>
 						<h2>Portifólio Web Design</h2>
 					</header>
-					<div class="gallery">
+					<div class="galeria">
 						<div class="zoom">
 							<div class="image fit">
 								<a href="#"><img src="images/template01.png" alt="" class="img-responsive" /></a>

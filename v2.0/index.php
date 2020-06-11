@@ -12,7 +12,7 @@
 		<title>Design Tech TI | Desenvolvimento Web</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/css/main.css" media="all" />
 		<link rel="shortcut icon" href="images/favicon.ico" />
 	</head>
 	<body>

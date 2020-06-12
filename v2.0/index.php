@@ -128,6 +128,7 @@
 						<li><a href="mailto:mrc_490@hotmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						<li><a href="https://linkedin.com/in/designtechti" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<li><a href="https://github.com/designtechti" class="icon fa-github"><span class="label">Github</span></a></li>
+						<li><a href="https://twitch.tv/designtechti" class="icon fa-twitch"><span class="label">Github</span></a></li>
 					</ul>
 				</div>
 				<div class="copyright">

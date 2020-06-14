@@ -14,16 +14,6 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" media="all" />
 		<link rel="shortcut icon" href="images/favicon.ico" />
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-		<script src="jquery.gallerie.js"></script>
-		<link rel="stylesheet" type="text/css" href="gallerie.css"/>
-		<link rel="stylesheet" type="text/css" href="gallerie-effects.css"/>
-
-		<script type="text/javascript">
-			$(document).ready(function(){
-			$('#gallery').gallerie();
-			});
-		</script>
 	</head>
 	<body>
 

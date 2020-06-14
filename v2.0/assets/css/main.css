@@ -109,19 +109,68 @@
 		border-radius:0 0 5px 5px;
 	}
 
-	#sobre > img {
-		border-radius: 50%;
-		border: 5px solid #1E90FF;
-		width: 500px;
+		#sobre > img {
+			border-radius: 50%;
+			border: 5px solid #1E90FF;
+			width: 500px;
+		}
+
+		#sobre > p {
+			color: #696969;
+			padding: 15px;
+		}
+
+		#sobre > h2 {
+			padding: 15px;
+		}
+
+	#refs {
+		color: #3CC3FA;
+		background-color: #ddd;
+		border-top: 5px solid #3CC3FA;
+		float: left;
+		width: 25%;
+		margin: 20px;
 	}
 
-	#sobre > p {
-		color: #696969;
-		padding: 15px;
+	#referencias {
+		margin: 0 5px 0 5px;
+		text-align: left;
+		padding-bottom: 50px;
+		line-height: 160%;
+		border-bottom-style: solid 2px #0FF;
+		width: 100%;
+		display: block;
 	}
 
-	#sobre > h2 {
-		padding: 15px;
+		#referencias a {
+			text-decoration: none;
+			color: #000;
+		}
+
+		#referencias a:hover {
+			color: #3CC3FA;	
+		}
+
+	#lista {
+		width: 100%;
+		padding-left: 10px;
+		list-style-type: none;
+	}
+
+		#lista h3 {
+			color: #3CC3FA;
+		}
+
+		#lista li {
+			border-bottom: solid 1px #000;
+			width: 90%;	
+		}
+
+	#manutencao {
+	text-align: center;
+	font-weight: bolder;
+	padding: 25px;
 	}
 
 /* Containers */

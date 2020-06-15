@@ -1,5 +1,6 @@
 <?php 
 	include ('assets/includes/conexao.php');
+	include ('assets/includes/class/noticias.class.php');
 ?>
 <!DOCTYPE HTML>
 <!--

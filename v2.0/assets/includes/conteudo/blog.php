@@ -1,11 +1,3 @@
-
-				<div id="manutencao">
-					<h1>PÁGINA EM MANUTENÇÃO</h1>
-					<img src="images/loading.gif">
-					<p>Em breve estará no ar. Aguarde!</p>
-				</div>
-
-<!--
 				<div id="refs">
 					<section id="referencias" class="flex">
 						<ul id="lista">
@@ -34,6 +26,15 @@
 					</section>	
 				</div>
 				<h1 style="text-align: center; margin: 50px;">Notícias & Curiosidades</h1>
+	
+				<div id="manutencao">
+					<p style="font-size: 40pt; font-weight: bolder; color: #ddd;">PÁGINA EM MANUTENÇÃO</p>
+					<img src="images/loading.gif"> <br><br>
+					<p style="font-size: 20pt; font-weight: bolder; color: #ddd;">Em breve estará no ar. Aguarde!</p><br><br><hr>
+				</div>
+
+<!--
+				
 
 					<?php
 						$news = new noticias();

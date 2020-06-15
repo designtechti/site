@@ -1,11 +1,11 @@
-<!-- 
+
 				<div id="manutencao">
 					<h1>PÁGINA EM MANUTENÇÃO</h1>
 					<img src="images/loading.gif">
 					<p>Em breve estará no ar. Aguarde!</p>
 				</div>
 
--->
+<!--
 				<div id="refs">
 					<section id="referencias" class="flex">
 						<ul id="lista">
@@ -58,3 +58,4 @@
 								}
 							}
 							?>
+-->

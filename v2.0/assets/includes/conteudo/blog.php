@@ -43,47 +43,7 @@
 						if(count($array) == 0){
 					?>
 					 <fieldset><h4 style="text-align: center; color: #fff;">Nenhuma notícia cadastrada.</h4></fieldset> 
-
-						<div style="border: 3px solid #06F; border-radius: 5px; padding: 20px;" class="flex">	
-									 <a class="feed" href="news/'<?php $_GET['titulo'] ?>'.php">
-										<h3><?=$dados['titulo']?>
-										<div class="flex new">	
-											<p class="flex" style="color: rgba(f,f,f,0.5);"><?=$dados['df']?></p>
-											<p class="flex" style="color: rgba(f,f,f,0.5);"><?=$dados['hora']?></p>
-										</div>
-										</h3>
-										<p><?=$dados['descricao']?></p>
-										<p><?=$dados['tags']?></p>
-									</a> 
-									<a href="#">
-										<h3>SUBLIME TEXT: O QUERIDINHO DOS PROGRAMADORES</h3>
-										<p class="direita">06/03/2020</p>
-										<p class="direita">10hs03min</p>
-										<img style="width: 400px;" src="https://media-exp1.licdn.com/dms/image/C5612AQEcDD_emn3Png/article-inline_image-shrink_1000_1488/0?e=1590624000&v=beta&t=WNxBkenlpNHZDyCSy08M1_cL8CuzGFNP9kIvDCTE0lY">
-										<p><i>"O que faz um profissional importante é seu conhecimento sobre as diversas áreas em que ele atua. Isso serve para qualquer profissional, do lixeiro ao alto executivo. Mas um outro fator importante a ser considerado são as ferramentas que o profissional utiliza. Já imaginou o quanto sofre um borracheiro sem um macaco? Profissional competente com as ferramentas certas é o primeiro passo para qualquer negócio ter sucesso[...]"</i></p>
-									</a>
-						</div>
-
-						<br><hr><br>
-						<div style="border: 3px solid #06F; border-radius: 5px; padding: 20px;" class="flex">	
-									 <a class="feed" href="news/'<?php $_GET['titulo'] ?>'.php">
-										<h3><?=$dados['titulo']?>
-										<div class="flex new">	
-											<p class="flex" style="color: rgba(f,f,f,0.5);"><?=$dados['df']?></p>
-											<p class="flex" style="color: rgba(f,f,f,0.5);"><?=$dados['hora']?></p>
-										</div>
-										</h3>
-										<p><?=$dados['descricao']?></p>
-										<p><?=$dados['tags']?></p>
-									</a> 
-									<a href="#">
-										<h3>SUBLIME TEXT: O QUERIDINHO DOS PROGRAMADORES</h3>
-										<p class="direita">06/03/2020</p>
-										<p class="direita">10hs03min</p>
-										<img style="width: 400px;" src="https://media-exp1.licdn.com/dms/image/C5612AQEcDD_emn3Png/article-inline_image-shrink_1000_1488/0?e=1590624000&v=beta&t=WNxBkenlpNHZDyCSy08M1_cL8CuzGFNP9kIvDCTE0lY">
-										<p><i>"O que faz um profissional importante é seu conhecimento sobre as diversas áreas em que ele atua. Isso serve para qualquer profissional, do lixeiro ao alto executivo. Mas um outro fator importante a ser considerado são as ferramentas que o profissional utiliza. Já imaginou o quanto sofre um borracheiro sem um macaco? Profissional competente com as ferramentas certas é o primeiro passo para qualquer negócio ter sucesso[...]"</i></p>
-									</a>
-						</div>
+					 <br><hr><br>
 
 						<img style="width: 70px; padding: 20px;" src="images/backward.png"><img style="width: 70px; padding: 20px; float: right;" src="images/forward.png">
 						

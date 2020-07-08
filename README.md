@@ -1,6 +1,6 @@
 # Website Design Tech T.I.
 
-![Website Design Tech TI] (https://raw.githubusercontent.com/designtechti/site/master/v1.0/images/69228526_2390685944585646_191423466862280704_o.jpg)
+![Website Design Tech TI](images/designtechti_banner.jpg)
 
 
 --- Meu site de portifólio ---

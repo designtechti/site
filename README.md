@@ -1,6 +1,4 @@
-# Website Design Tech T.I.
-
-![Website Design Tech TI](images/designtechti_banner.jpg)
+![Website Design Tech TI](v1.0/images/designtechti_banner.jpg)
 
 
 --- Meu site de portifólio ---

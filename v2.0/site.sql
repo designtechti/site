@@ -1,7 +1,7 @@
 -- --------------------------------------------------------
 -- Servidor:                     127.0.0.1
 -- Versão do servidor:           10.1.29-MariaDB - mariadb.org binary distribution
--- OS do Servidor:               Win32
+-- OS do Servidor:               Linux Mint
 -- HeidiSQL Versão:              10.3.0.5771
 -- --------------------------------------------------------
 

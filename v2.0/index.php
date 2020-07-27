@@ -109,6 +109,8 @@
 				?>
 			</div>
 
+			<br><br>
+
 		<!-- Footer -->
 			<footer id="footer">
 				<div class="container">
@@ -123,7 +125,7 @@
 					</ul>
 				</div>
 				<div class="copyright">
-					&copy; <a href="index.php" style="text-decoration: none;">Design Tech TI | Web Development</a> 2016 - <?= date("Y"); ?>. All rights reserved.
+					&copy; <a href="index.php" style="text-decoration: none;">Design Tech TI | Web Development</a> 2016 - <?= date("Y"); ?>. Todos os direitos reservados.
 				</div>
 			</footer>
 

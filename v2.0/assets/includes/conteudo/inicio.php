@@ -8,10 +8,11 @@
 					</header>
 				</div>
 			</section>		
-				<section id="two" class="wrapper style2">
+
+			<section id="two" class="wrapper style2">
 				<div class="inner">
 					<div class="grid-style">
-						<div class="artigos">
+						<div class="artigos" style="width: 33.33%; padding: 25px;">
 							<div class="box">
 								<div class="image fit zoom">
 									<img src="images/sublime.jpg" alt="" class="img-responsive" />
@@ -29,7 +30,7 @@
 							</div>
 						</div>
 
-						<div class="artigos">
+						<div class="artigos" style="width: 33.33%; padding: 25px;">
 							<div class="box">
 								<div class="image fit zoom">
 									<img src="images/wireframes.jpg" alt="" class="img-responsive" />
@@ -47,7 +48,7 @@
 							</div>
 						</div>
 
-						<div class="artigos">
+						<div class="artigos" style="width: 33.33%; padding: 25px;">
 							<div class="box">
 								<div class="image fit zoom">
 									<img src="images/iot.jpg" alt="" class="img-responsive" />

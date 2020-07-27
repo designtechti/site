@@ -173,8 +173,9 @@
 	padding: 25px;
 	}
 
-	.artigos {
-		width: 35%;
+	.artigos .box .content {
+		width: 75%;
+		margin: auto;
 	}
 
 /* Containers */
@@ -1966,9 +1967,6 @@
 				background-color: rgba(0, 0, 0, 0.125);
 			}
 
-		.box .content {
-			padding: 3rem;
-		}
 
 		.box > :last-child,
 		.box > :last-child > :last-child,

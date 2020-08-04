@@ -1,4 +1,4 @@
-﻿<?php
+<?php
 	include('includes/conexao.php');
 	include ('admin/class/noticias.class.php');
 ?>
@@ -9,7 +9,7 @@
 			<meta charset="utf-8">
 			<meta name="author" content="Marcelo Goulart Rodrigues Junior">
 			<title>Design Tech TI | Desenvolvimento Web</title>
-			<link rel="shortcut icon" href="images/favicon.png" />
+			<link rel="shortcut icon" href="images/favicon.ico" />
 			<link rel="stylesheet" href="css/estilos.css" />
 			<link rel="stylesheet" type="text/css" href="engine1/style.css" />
 			<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">

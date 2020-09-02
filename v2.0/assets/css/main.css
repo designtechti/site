@@ -131,6 +131,7 @@
 		float: left;
 		width: 25%;
 		margin: 20px;
+		display: inline-block;
 	}
 
 	#referencias {
@@ -140,7 +141,7 @@
 		line-height: 160%;
 		border-bottom-style: solid 2px #0FF;
 		width: 100%;
-		display: block;
+		display: inline-block;
 	}
 
 		#referencias a {
@@ -176,6 +177,17 @@
 	.artigos .box .content {
 		width: 75%;
 		margin: auto;
+		box-shadow: 3px 3px 3px 3px #F1F1F1;
+	}
+
+	.artigo {
+		width: 65%;
+		margin: 30px auto 30px auto;
+		box-shadow: 3px 3px 3px 3px #3CC3FA;
+		font-weight: bolder;
+		padding: 30px;
+		position: relative;
+		left: 12%;
 	}
 
 /* Containers */

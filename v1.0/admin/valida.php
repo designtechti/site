@@ -4,8 +4,6 @@
 	ini_set('display_startup_errors', 1);
 	error_reporting(E_ALL); 
 
-	phpinfo();
-
 	//cria sessoes no php
 	session_name('login');
 	session_start();

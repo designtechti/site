@@ -6,5 +6,5 @@
 	error_reporting(E_ALL);
 
 	//Comando que conecta no banco de dados do site designtechti.com.br
-	$conexao = mysqli_connect('localhost','root','455301789','site');
+	$conexao = mysqli_connect('localhost','root','','site');
 ?>

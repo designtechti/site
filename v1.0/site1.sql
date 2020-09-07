@@ -47,6 +47,4 @@ CREATE TABLE IF NOT EXISTS `usuario` (
 
 -- Inserindo registro na tabela site.usuario
 
-INSERT INTO `usuario` (`id`, `nome`, `usuario`, `senha`) VALUES ('1', 'Design Tech TI', '@designtechti', '761245d203900ab1fc0981ef26ce54fb');
-
-UPDATE `usuario` SET `senha` = '761245d203900ab1fc0981ef26ce54fb' WHERE `usuario` = '@designtechti';
+INSERT INTO `usuario` (`nome`, `usuario`, `senha`) VALUES ('Design Tech TI', '@designtechti', '761245d203900ab1fc0981ef26ce54fb');

@@ -27,7 +27,6 @@
 				</div>
 				<h1 style="text-align: center; margin: 50px; font-size: 20pt; color: #fff;">Notícias & Curiosidades</h1>
 	
-		<!--		
 		
 			<div class="artigo box">
 				<div class="image fit zoom">
@@ -78,17 +77,13 @@
 				</div>
 			</div>
 		
-		-->				
+<!--			
 				<div id="manutencao">
 					<p style="font-size: 40pt; font-weight: bolder; color: #ddd;">PÁGINA EM MANUTENÇÃO</p>
 					<img src="images/loading.gif"> <br><br>
 					<p style="font-size: 20pt; font-weight: bolder; color: #ddd;">Em breve estará no ar. Aguarde!</p><br><br><hr>
 				</div>
 				
-		
-<!--
-				
-
 					<?php
 						$news = new noticias();
 						$news -> setConexao($conexao);

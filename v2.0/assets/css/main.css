@@ -177,7 +177,7 @@
 	.artigos .box .content {
 		width: 75%;
 		margin: auto;
-		box-shadow: 3px 3px 3px 3px #F1F1F1;
+		padding: 30px;
 	}
 
 	.artigo {

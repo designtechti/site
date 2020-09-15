@@ -1,4 +1,4 @@
-<h2 style="text-align: center; padding: 25px;">Portifólio Web Design</h2>
+<h2 style="text-align: center; padding: 25px; color: #fff;">Portifólio Web Design</h2>
 	<div class="container">
 		<div class="row">
 			<div class="col-md-6">
@@ -8,73 +8,97 @@
 				<div class="mdb-lightbox no-margin">
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(117).jpg">
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(117).jpg" class="gallery" >
+						<a href="images/fulls/01.jpg">
+							<img alt="picture" src="images/thumbs/01.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" >
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(98).jpg" >
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(98).jpg" class="gallery" />
+						<a href="images/fulls/02.jpg" >
+							<img alt="picture" src="images/thumbs/02.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(131).jpg">
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(131).jpg" class="gallery" />
+						<a href="images/fulls/03.jpg">
+							<img alt="picture" src="images/thumbs/03.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(123).jpg" >
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(123).jpg" class="gallery" />
+						<a href="images/fulls/04.jpg" >
+							<img alt="picture" src="images/thumbs/04.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(118).jpg" >
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(118).jpg" class="gallery" />
+						<a href="images/fulls/05.jpg" >
+							<img alt="picture" src="images/thumbs/05.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(128).jpg">
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(128).jpg" class="gallery" />
+						<a href="images/fulls/06.jpg">
+							<img alt="picture" src="images/thumbs/06.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(132).jpg">
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(132).jpg" class="gallery" />
+						<a href="images/fulls/07.jpg">
+							<img alt="picture" src="images/thumbs/07.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
-						<a href="https://mdbootstrap.com/img/Photos/Horizontal/Nature/12-col/img%20(115).jpg">
-							<img alt="picture" src="https://mdbootstrap.com/img/Photos/Horizontal/Nature/4-col/img%20(115).jpg" class="gallery" />
+						<a href="images/fulls/08.jpg">
+							<img alt="picture" src="images/thumbs/08.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
+						</a>
+					</figure>
+					
+					<figure class="col-md-4">
+						<a href="images/fulls/09.jpg">
+							<img alt="picture" src="images/thumbs/09.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
+						</a>
+					</figure>
+					
+					<figure class="col-md-4">
+						<a href="images/fulls/10.jpg">
+							<img alt="picture" src="images/thumbs/10.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
+						</a>
+					</figure>
+
+					<figure class="col-md-4">
+						<a href="images/fulls/11.jpg">
+							<img alt="picture" src="images/thumbs/11.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
+						</a>
+					</figure>
+
+					<figure class="col-md-4">
+						<a href="images/fulls/12.jpg">
+							<img alt="picture" src="images/thumbs/12.jpg" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
 						<a href="#" >
-							<img alt="picture" src="images/template01.png" class="gallery" />
+							<img alt="picture" src="images/template01.png" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
 						<a href="#" >
-							<img alt="picture" src="images/template02.png" class="gallery" />
+							<img alt="picture" src="images/template02.png" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 
 					<figure class="col-md-4">
 						<a href="#" >
-							<img alt="picture" src="images/template03.png" class="gallery" />
+							<img alt="picture" src="images/template03.png" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>
 					<figure class="col-md-4">
 						<a href="#" >
-							<img alt="picture" src="images/template04.png" class="gallery" />
+							<img alt="picture" src="images/template04.png" class="gallery" style="margin: 20px; box-shadow: 3px 3px 3px 3px #222; border-radius:25px;" />
 						</a>
 					</figure>				
 				</div>

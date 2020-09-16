@@ -23,7 +23,6 @@
 				<div class="logo">
 					<a href="index.php">
 						<img src="images/logo.png">
-						<span>DESIGN TECH TI</span>
 					</a>
 				</div>
 				<a href="#menu">Menu</a>

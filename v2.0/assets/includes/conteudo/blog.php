@@ -30,7 +30,7 @@
 		
 			<div class="artigo box">
 				<div class="image fit zoom">
-					<img src="images/sublime.jpg" alt="" class="img-responsive" />
+					<img src="images/sublime.jpg" alt="" class="img-responsive" /><br><br>
 				</div>
 				<div class="content">
 					<header class="align-center">
@@ -46,7 +46,7 @@
 
 			<div class="artigo box">
 				<div class="image fit zoom">
-					<img src="images/wireframes.jpg" alt="" class="img-responsive" />
+					<img src="images/wireframes.jpg" alt="" class="img-responsive" /><br><br>
 				</div>
 				<div class="content">
 					<header class="align-center">
@@ -62,7 +62,7 @@
 
 			<div class="artigo box">
 				<div class="image fit zoom">
-					<img src="images/iot.jpg" alt="" class="img-responsive" />
+					<img src="images/iot.jpg" alt="" class="img-responsive" /><br><br>
 				</div>
 				<div class="content">
 					<header class="align-center">

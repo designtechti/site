@@ -15,6 +15,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<link rel="stylesheet" href="assets/css/main.css" media="all" />
 		<link rel="shortcut icon" href="images/favicon.ico" />
+		<link rel="stylesheet" href="assets/css/lightbox.min.css" />
 	</head>
 	<body>
 
@@ -129,12 +130,13 @@
 			</footer>
 
 		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrollex.min.js"></script>
-			<script src="assets/js/skel.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-			<script src="assets/js/lightbox.js"></script>
-			
+			<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+			<script type="text/javascript" src="assets/js/jquery.scrollex.min.js"></script>
+			<script type="text/javascript"src="assets/js/skel.min.js"></script>
+			<script type="text/javascript" src="assets/js/util.js"></script>
+			<script type="text/javascript" src="assets/js/main.js"></script>
+			<script type="text/javascript" src="assets/js/lightbox.js"></script>
+			<script type="text/javascript" src="assets/js/lightbox-plus-jquery.min.js"></script>
+						
 	</body>
 </html>

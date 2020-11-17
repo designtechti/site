@@ -134,6 +134,7 @@
 		width: 25%;
 		margin: 20px;
 		display: inline-block;
+		border-radius: 7px 7px 0 0;
 	}
 
 	#referencias {
@@ -141,7 +142,6 @@
 		text-align: left;
 		padding-bottom: 50px;
 		line-height: 160%;
-		border-bottom-style: solid 2px #0FF;
 		width: 100%;
 		display: inline-block;
 	}

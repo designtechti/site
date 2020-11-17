@@ -8,7 +8,7 @@
 	//Comando que conecta no banco de dados do site designtechti.com.br
 	$servername = 'localhost';
 	$user = 'root';
-	$password = '';
+	$password = '455301789Bst_490';
 	$db = 'site';
 	$conexao = mysqli_connect($servername,$user,$password,$db);
 ?>

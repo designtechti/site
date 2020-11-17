@@ -36,6 +36,7 @@
 					<li><a href="index.php?p=conteudo&a=sobre">Sobre</a></li>
 					<li><a href="index.php?p=conteudo&a=portifolio">Portifólio</a></li>
 					<li><a href="index.php?p=conteudo&a=blog">Blog</a></li>
+					<li><a href="loja/index.php">Loja Virtual</a></li>
 				</ul>
 			</nav>
 

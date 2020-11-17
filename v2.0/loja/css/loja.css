@@ -1,0 +1,328 @@
+*{
+		font-family:Verdana, Geneva, sans-serif;
+
+}
+html,body{
+	margin:0;
+	padding:0;
+}
+
+header{
+	display:table;
+	width:100%;
+	height:80px;
+	background:#0855C6
+}
+
+	header > .direita {
+		text-align: right;
+		float: right;
+		padding: 50px;
+		display: inline-flex;
+		color: #FFF;
+		margin: auto;
+	}
+
+.logo {
+	padding: 15px;
+}
+
+footer{
+	display:table;
+	width:100%;
+	height:100px;
+	background:#0855C6;
+	position:absolute;
+	bottom:0
+	
+}
+
+	footer a {
+		color: rgba(255, 255, 255, 0.5);
+	}
+
+		footer a:hover {
+			color: #FFF;
+		}
+
+		footer .copyright {
+			color: #bbb;
+			font-size: 0.9rem;
+			margin: 70px 0 70px 0;
+			padding: 0;
+			text-align: center;
+		}
+
+			footer .copyright a:hover {
+				color: #1E90FF;
+				text-decoration: underline;
+			}
+
+.textosRodape{
+	list-style:none;
+	padding:0;
+	margin:10px 20px ;
+	display:table;
+	width:auto;
+}
+
+.textosRodape > li{
+	border-bottom:1px dashed #FFF;
+	color:#00F;
+	line-height:1.5;
+	padding-left:10px;
+}
+
+.textosRodape > li > a{
+	text-decoration:none;
+	color:#FFF;
+	line-height:2
+}
+
+
+section{
+	display:table;
+	width:100%;
+	/*border:1px solid #000*/
+}
+
+.listaProdutos{
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:table
+}
+
+.listaProdutos > li{
+	float:left;
+	margin:10px;
+}
+
+.listaProdutos > li > ul{
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:table;
+	border:1px dashed rgba(30,114,180,1);
+	
+	
+}
+
+.listaProdutos > li > ul > li:first-child{
+	text-align:center;
+	border-bottom:1px solid #CCC;
+	font-weight:bold;
+	padding:0px 5px;
+}
+
+.listaProdutos > li > ul > li:nth-child(2){
+	text-align:center;
+}
+
+.listaProdutos > li > ul > li:nth-child(3){
+	text-align:center;
+	font-weight:bold
+}
+
+.listaProdutos > li > ul > li:last-child{
+	text-align:center;
+	font-weight:bold;
+	margin:10px
+}
+
+.listaProdutos > li > ul > li:last-child > input[type="button"]{
+	border:none;
+	background:#0FADDF;
+	color:#FFF;
+	width:100px;
+	height:30px;
+	transition:all .5s
+}
+
+.listaProdutos > li > ul > li:last-child > input[type="button"]:hover{
+	background:#0B3B73;
+	cursor:pointer
+}
+
+.caixa{
+	display:table;
+	width:90%;
+	margin:0 auto;
+}
+
+.caixa .titulo{
+	font-weight:bold;
+	font-size:30px;
+	text-align:center;
+	color:#1A76FF
+}
+
+.menuPrincipal{
+	padding:0;
+	margin:0;
+	display:table;
+	width:100%;
+	color:#FFF;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8cbaff+0,0046ae+100 */
+	background: #8cbaff; /* Old browsers */
+	background: -moz-linear-gradient(top, #8cbaff 0%, #0046ae 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #8cbaff 0%,#0046ae 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #8cbaff 0%,#0046ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cbaff', endColorstr='#0046ae',GradientType=0 ); /* IE6-9 */	
+}
+
+.menuPrincipal > li{
+	padding:0;
+	margin:0;
+	list-style:none;
+	float:left;
+	width:25%;
+	text-align:center;
+	border:1px solid #000;
+	box-sizing:border-box;
+	line-height:2;
+	color:#FFF;
+	transition:all .5s;
+	
+}
+
+.menuPrincipal > li > a{
+	text-decoration:none;
+	color:#FFF;
+	display:table;
+	width:100%;
+}
+
+.menuPrincipal > li:hover{
+	background:rgba(0,0,0,.5);
+	color:#FFF;
+}
+
+.menuPrincipal > li:hover ul{
+	display:block
+}
+
+.menuPrincipal > li > ul{
+	padding:0;
+	margin:0;
+	list-style:none;
+	display:none;
+	position:absolute;
+	text-align:left;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#8cbaff+0,0046ae+100 */
+	background: #8cbaff; /* Old browsers */
+	background: -moz-linear-gradient(top, #8cbaff 0%, #0046ae 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, #8cbaff 0%,#0046ae 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, #8cbaff 0%,#0046ae 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8cbaff', endColorstr='#0046ae',GradientType=0 ); /* IE6-9 */	
+	width:25%;	
+	border-radius:0 5px
+}
+
+.menuPrincipal > li > ul > li{
+	line-height:3;
+	border-bottom:1px solid #CCC;
+	padding-left:10px;
+	transition:all .5s
+}
+
+.menuPrincipal > li > ul > li:hover{
+	background:rgba(0,0,0,.5);
+	color:#FFF;
+}
+
+.menuPrincipal > li > ul > li > a{
+	text-decoration:none;
+	color:#FFF;
+	width:100%;
+	display:table
+}
+
+.detalhesProduto{
+	display:table;
+	width:100%;
+	margin:0;
+
+	padding:0;
+	margin:0;	
+}
+
+.detalhesProduto > ul{
+	padding:0;
+	margin:0;
+}
+
+.detalhesProduto > ul > li{
+	padding:0;
+	margin:0;
+	list-style:none;
+	float:left;	
+
+}
+
+.detalhesProduto > ul > li > img{
+	padding:0;
+	margin: 35px;
+	list-style:none;
+	float:left;
+	border: 5px solid rgba(0,80,200,0.3);
+	border-radius: 10%;	
+}
+
+.detalhesProduto > ul > li:nth-child(2){
+	width:calc(90% - 200px);
+	
+
+}
+
+.detalhesProduto > ul > li:nth-child(2) > strong{
+	width:90%;
+	display:table;
+	text-align:center;
+	line-height:3;
+	float: left;
+}
+
+
+.detalhesProduto > ul > li:nth-child(3) > p{
+	width:100%;
+	display:table;
+	text-align:left;
+	text-indent: 20em;
+	background: #000;
+}
+
+.detalhesProduto > ul > li:nth-child(3){
+	clear:both;
+	width:100%;
+	text-align:right;
+	line-height:3
+}
+
+.detalhesProduto > ul > li:nth-child(3) > strong{
+	font-size:20px;
+	margin-right:90px;
+}
+
+.detalhesProduto > ul > li:nth-child(4){
+	clear:both;
+	width:100%;
+	text-align:right;
+	line-height:3	
+}
+
+.detalhesProduto > ul > li:nth-child(4) > input[type="button"]{
+	margin-right:30px;
+	border:none;
+	background:#0855C6;
+	transition:all .5s;
+	height:30px;
+	border-radius:5px;
+	color:#FFF;
+	font-weight:bold;
+	cursor:pointer
+}
+
+.detalhesProduto > ul > li:nth-child(4) > input[type="button"]:hover{
+	background:#8CBAFF;
+}

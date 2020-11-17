@@ -1,0 +1,149 @@
+*{
+	font-family:Verdana, Geneva, sans-serif;
+	padding:0;
+	margin:0;
+}
+
+#topo{
+	text-align:center;
+	padding:10px 0;
+	font-weight:bold
+}
+
+#menu{
+	display:table;
+	width:100%;		
+}
+
+#menu > ul{
+	list-style:none;
+	display:table;
+	margin:0;
+	padding:0;
+	width:100%;
+	position: absolute;
+}
+
+#menu > ul > li{
+	float:left;
+	width:16.66%;
+	height:50px;
+	text-align:center;
+	background:#1E90FF;
+	color:#FFF;
+	transition:all .5s;
+	line-height:3
+}
+
+#menu > ul > li > a{
+	color:#FFF;
+	text-decoration:none;
+	
+}
+
+#menu > ul > li:hover{
+	background:#19A8E3;	
+}
+
+#menu > ul > li:hover ul{
+	display:table;
+	
+}
+
+#menu > ul > li > ul{
+	background:#1E90FF;	
+	list-style:none;
+	padding:0;
+	margin:0;
+	display:none;
+	width:100%;
+	border-radius:0 0 10px 10px;	
+}
+
+#menu > ul > li > ul > li{
+	border-bottom:1px solid #CCC;
+	text-align:left;
+	transition:all .5s;
+	border-radius:0 0 10px 10px;		
+	
+}
+
+#menu > ul > li > ul > li:hover{
+	background:#19A8E3;	
+	
+}
+
+#menu > ul > li > ul > li > a{
+	color:#FFF;
+	text-decoration:none;
+	width:100%;
+	height:100%;
+	display:table;
+	transition:all .5s;
+	padding:5px;
+}
+
+#login > form > ul{
+	display:table;
+	margin:0 auto;
+	list-style:none;
+	padding:0;
+}
+
+
+#login > form > ul input[type="text"],
+#login > form > ul input[type="password"]{
+	border:none;
+	border-bottom:1px solid #00F;
+	height:40px;
+	width:350px;
+	padding-left:5px;
+}
+
+#login > form > ul input[type="submit"]{
+	border:1px solid #00F;
+	height:40px;
+	width:100px;
+	float:right;
+	margin:10px;
+	background:#FFF;
+}
+
+#formulario {
+	border:none;
+	height:40px;
+	width:350px;
+	padding: 50px 0 0 50px; 
+	display: table;
+	margin: auto;
+}
+
+#formulario > input[type="text"], 
+#formulario > input[type="password"]{
+	border:none;
+	border-bottom:1px solid #00F;
+	border-radius: 3px;
+	height:40px;
+	width:350px;
+	padding-left:5px;	
+}
+
+#formulario > input[type="submit"] {
+	border:1px solid #07F;
+	border-radius: 3px;
+	height:40px;
+	width:100px;
+	margin:10px;
+	background:#07f;
+	color: #fff;	
+}
+
+.botao{
+	width:100px;
+	height:40px;
+	border:none;
+	background:#1E90FF;
+	color:#FFF;
+	margin:5px;
+	transition:all .5s;
+}

@@ -1,5 +1,5 @@
 <ul class="menuPrincipal">
-	<li><a href="modulos/abertura/abertura.php">Produtos</a></li>
+	<li><a href="index.php?p=abertura&a=abertura">Produtos</a></li>
 	<li>
     	Informações
         <ul>

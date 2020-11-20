@@ -23,7 +23,7 @@
 			<header id="header" class="alt">
 				<div class="logo">
 					<a href="index.php">
-						<img src="images/logo.png">
+						<img src="images/logo.png" width="30%" style="float: left;">
 					</a>
 				</div>
 				<a href="#menu">Menu</a>

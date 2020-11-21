@@ -1,33 +1,33 @@
 ﻿<?php
-	//Cria uma seção no PHP
+	//mostra os erros na tela 
+	ini_set('display_errors', 1);
+	ini_set('display_startup_errors', 1);
+	error_reporting(E_ALL); 
+
+	//cria sessoes no php
 	session_name('login');
 	session_start();
-	//Inclui uma página PHP
-	include ('includes/functions.php');
-	include ('includes/conexao.php');
-
-	//Comando a ser executado no banco
+	include('includes/functions.php'); 
+	include('includes/conexao.php'); 
+	include('class/administradores.class.php'); 
 	
-	$usuario = $_POST['usuario'];
-	$senha = md5($_POST['senha']);
+	$validar = new administrador();
+	echo $validar->setUsuario($_POST['usuario']);
+	echo $validar->setSenha(md5($_POST['senha']));
+	$validar->setConexao($conexao);
 	
-	$query = "SELECT *FROM usuarios 
-					  WHERE 
-					  		usuario='$usuario' AND
-							senha='$senha'
-			 ";
-	
-	//Executa o comando no banco de dados
-	$result = mysqli_query($conexao,$query);
-	//Verifica quantos registros veio do banco de dados
-	if(mysqli_num_rows($result)==0){
-		
-		replace('index.php?msg=Você não tem permissão de acesso!');
-		echo $_GET['msg'];
+	if(!$validar->Validar()){
+		StringReplace('index.php?msg='.urlencode("Usuário ou senha inválidos"));
 	}else{
 
+		//Lista os usuários que estam conectados no painel administrativo
+		$dados = $validar->Listar();
+		
 		$_SESSION['logado'] = true;
-		replace('painel.php');
-	}
+		$_SESSION['nome'] = $dados[0]['nome'];
+		Header('Location:painel.php');//redirecionamento   
+		if (isset($_SESSION['nome']))     
+		echo 'Bem-Vindo, '. $_SESSION['nome'] .'.Você esta logado!';
 
+	}
 ?>

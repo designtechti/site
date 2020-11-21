@@ -13,6 +13,6 @@
 			<script>
 				alert('<?=$msg?>')
 			</script>
-		<?	
+		<?php	
 	}
 ?>

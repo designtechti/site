@@ -4,6 +4,11 @@
 	margin:0;
 }
 
+.headerLogin {
+	height: 350px;
+	background: url('../img/fundo.jpeg');
+}
+
 #topo{
 	text-align:center;
 	padding:10px 0;

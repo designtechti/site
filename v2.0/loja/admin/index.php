@@ -7,6 +7,9 @@
 </head>
 
 <body>
+	<header class="headerLogin">
+		&nbsp;
+	</header>
 	<div id="topo">
 		Ambiente Administrativo
 	</div>

@@ -176,10 +176,11 @@
 	padding: 25px;
 	}
 
-	.artigos .box .content {
+	.artigo .box .content {
 		width: 75%;
 		margin: auto;
 		padding: 30px;
+		float: right;
 	}
 
 	.artigo {
@@ -189,6 +190,7 @@
 		font-weight: bolder;
 		padding: 30px;
 		display: inline-block;
+		float: right;
 	}
 
 /* Containers */

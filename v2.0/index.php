@@ -116,9 +116,8 @@
 			<footer id="footer">
 				<div class="container">
 					<ul class="icons">
-						<li><a href="https://twitter.com/designtechti" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-						<li><a href="https://facebook.com/designtechti" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
-						<li><a href="https://instagram.com/designtechti" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+						<li><a href="https://discord.gg/KWV6RRbeCA"><img src="images/icons/discord.png" style="width: 25px; margin: -2px;"><span class="label" style="display:none;">Discord</span></a></li>
+						<li><a href="https://youtube.com/channel/UCUxBoaZG39OSLA3-mexqSkg" class="icon fa-youtube"><span class="label">YouTube</span></a></li>
 						<li><a href="mailto:mrc_490@hotmail.com" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
 						<li><a href="https://linkedin.com/in/designtechti" class="icon fa-linkedin"><span class="label">Linkedin</span></a></li>
 						<li><a href="https://github.com/designtechti" class="icon fa-github"><span class="label">Github</span></a></li>
